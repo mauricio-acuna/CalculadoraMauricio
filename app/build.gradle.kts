@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.codemau.calculadoramauricio"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.codemau.calculadoramauricio"
-        minSdk = 24
-        targetSdk = 33
+        minSdk = 28
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

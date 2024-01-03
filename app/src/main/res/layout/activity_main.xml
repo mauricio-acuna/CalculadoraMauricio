@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvResultado"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="5dp"
@@ -20,6 +20,31 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline105"
         app:layout_constraintTop_toTopOf="@+id/guideline201"
         app:layout_constraintBottom_toTopOf="@+id/guideline202" />
+
+
+    <Button
+        android:id="@+id/bt_AC"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="AC"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintEnd_toStartOf="@+id/guideline102"
+        app:layout_constraintTop_toTopOf="@+id/guideline202"
+        app:layout_constraintBottom_toTopOf="@+id/guideline203"/>
+
+
+    <Button
+        android:id="@+id/bt_signo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="+/-"
+        app:layout_constraintStart_toStartOf="@+id/guideline102"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintTop_toTopOf="@+id/guideline202"
+        app:layout_constraintBottom_toTopOf="@+id/guideline203"/>
+
 
 
     <androidx.constraintlayout.widget.Guideline
