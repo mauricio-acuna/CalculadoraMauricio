@@ -45,7 +45,198 @@
         app:layout_constraintTop_toTopOf="@+id/guideline202"
         app:layout_constraintBottom_toTopOf="@+id/guideline203"/>
 
+    <Button
+        android:id="@+id/bt_porcentaje"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="%"
+        app:layout_constraintStart_toStartOf="@+id/guideline103"
+        app:layout_constraintEnd_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="@+id/guideline202"
+        app:layout_constraintBottom_toTopOf="@+id/guideline203"   />
 
+    <Button
+        android:id="@+id/bt_dividido"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="/"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintTop_toTopOf="@+id/guideline202"
+        app:layout_constraintBottom_toTopOf="@+id/guideline203"   />
+
+
+    <Button
+        android:id="@+id/bt_siete"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintEnd_toStartOf="@+id/guideline102"
+        app:layout_constraintTop_toTopOf="@+id/guideline203"
+        app:layout_constraintBottom_toTopOf="@+id/guideline204"/>
+
+
+    <Button
+        android:id="@+id/bt_ocho"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="8"
+        app:layout_constraintStart_toStartOf="@+id/guideline102"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintTop_toTopOf="@+id/guideline203"
+        app:layout_constraintBottom_toTopOf="@+id/guideline204"/>
+
+    <Button
+        android:id="@+id/bt_nueve"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="9"
+        app:layout_constraintStart_toStartOf="@+id/guideline103"
+        app:layout_constraintEnd_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="@+id/guideline203"
+        app:layout_constraintBottom_toTopOf="@+id/guideline204"   />
+
+    <Button
+        android:id="@+id/bt_multiplica"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="X"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintTop_toTopOf="@+id/guideline203"
+        app:layout_constraintBottom_toTopOf="@+id/guideline204"   />
+
+    <Button
+        android:id="@+id/bt_cuatro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintEnd_toStartOf="@+id/guideline102"
+        app:layout_constraintTop_toTopOf="@+id/guideline204"
+        app:layout_constraintBottom_toTopOf="@+id/guideline205"/>
+
+
+    <Button
+        android:id="@+id/bt_cinco"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="5"
+        app:layout_constraintStart_toStartOf="@+id/guideline102"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintTop_toTopOf="@+id/guideline204"
+        app:layout_constraintBottom_toTopOf="@+id/guideline205"/>
+
+    <Button
+        android:id="@+id/bt_seis"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="6"
+        app:layout_constraintStart_toStartOf="@+id/guideline103"
+        app:layout_constraintEnd_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="@+id/guideline204"
+        app:layout_constraintBottom_toTopOf="@+id/guideline205"   />
+
+    <Button
+        android:id="@+id/bt_resta"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintTop_toTopOf="@+id/guideline204"
+        app:layout_constraintBottom_toTopOf="@+id/guideline205"   />
+
+    <Button
+        android:id="@+id/bt_uno"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintEnd_toStartOf="@+id/guideline102"
+        app:layout_constraintTop_toTopOf="@+id/guideline205"
+        app:layout_constraintBottom_toTopOf="@+id/guideline206"/>
+
+
+    <Button
+        android:id="@+id/bt_dos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="2"
+        app:layout_constraintStart_toStartOf="@+id/guideline102"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintTop_toTopOf="@+id/guideline205"
+        app:layout_constraintBottom_toTopOf="@+id/guideline206"/>
+
+    <Button
+        android:id="@+id/bt_tres"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="3"
+        app:layout_constraintStart_toStartOf="@+id/guideline103"
+        app:layout_constraintEnd_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="@+id/guideline205"
+        app:layout_constraintBottom_toTopOf="@+id/guideline206"   />
+
+    <Button
+        android:id="@+id/bt_suma"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintTop_toTopOf="@+id/guideline205"
+        app:layout_constraintBottom_toTopOf="@+id/guideline206"   />
+
+    <Button
+        android:id="@+id/bt_punto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="."
+        app:layout_constraintStart_toStartOf="@+id/guideline101"
+        app:layout_constraintEnd_toStartOf="@+id/guideline102"
+        app:layout_constraintTop_toTopOf="@+id/guideline206"
+        app:layout_constraintBottom_toTopOf="@+id/guideline207"/>
+
+
+    <Button
+        android:id="@+id/bt_cero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="@+id/guideline102"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintTop_toTopOf="@+id/guideline206"
+        app:layout_constraintBottom_toTopOf="@+id/guideline207"/>
+
+
+    <Button
+        android:id="@+id/bt_igual"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:text="="
+        app:layout_constraintStart_toStartOf="@+id/guideline103"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintTop_toTopOf="@+id/guideline206"
+        app:layout_constraintBottom_toTopOf="@+id/guideline207"   />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline101"
