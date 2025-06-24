@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
         if(operacion == '/'){
             if(numero2 == 0.0 ){
                 tvResultado.setText("0");
-                Toast.makeText(this, "OPERACIÒN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "OPERACIÓN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
             }    else{
                 result = numero1 / numero2;
                 tvResultado.setText(result+"");
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         if(operacion == 'X'){
             if(numero2 == 0.0 ){
                 tvResultado.setText("0");
-                Toast.makeText(this, "OPERACIÒN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "OPERACIÓN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
             }    else{
                 result = numero1 * numero2;
                 tvResultado.setText(result+"");
@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
         if(operacion == '+'){
             if(numero2 == 0.0 ){
                 tvResultado.setText("0");
-                Toast.makeText(this, "OPERACIÒN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "OPERACIÓN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
             }    else{
                 result = numero1 + numero2;
                 tvResultado.setText(result+"");
@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
         if(operacion == '-'){
             if(numero2 == 0.0 ){
                 tvResultado.setText("0");
-                Toast.makeText(this, "OPERACIÒN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "OPERACIÓN NO VÁLIDA ", Toast.LENGTH_SHORT).show();
             }    else{
                 result = numero1 - numero2;
                 tvResultado.setText(result+"");
